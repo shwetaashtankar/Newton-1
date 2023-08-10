@@ -1,0 +1,23 @@
+.square-circle{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.green{
+    height: 175px;
+    width: 175px;
+    background-color: green;
+    margin: 10px;
+
+}
+
+.circle{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 10px;
+}
